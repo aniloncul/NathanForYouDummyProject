@@ -42,7 +42,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         userSelection = nathanArray[indexPath.row]
-        performSegue(withIdentifier: "toDetailsVC", sender: nil)
+        performSegue(withIdentifier: "toDetailsVC", sender: nil)4
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
